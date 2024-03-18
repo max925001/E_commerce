@@ -1,20 +1,12 @@
 import React from 'react'
 import HeroSection from './components/HeroSection'
 
-//import HeroSection from './components/HeroSection';
-function Home() {
-
+function About() {
 
     const data = {
-        name: "thapa store",
+        name: "thapa Ecommerce",
       };
-    
   return <HeroSection myData={data}/>
-   
-
 }
 
-
-
-
-export default Home
+export default About
